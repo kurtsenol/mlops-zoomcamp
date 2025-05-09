@@ -1,0 +1,15 @@
+$schema: https://azuremlschemas.azureedge.net/latest/managedOnlineDeployment.schema.json
+name: taxi-deployment
+endpoint_name: taxi-endpoint
+
+model: azureml:nyc-taxi-model:1
+
+code_configuration:
+  code: .
+  scoring_script: score.py
+
+environment: azureml:taxi-env:1
+
+instance_type: Standard_F2s_v2
+instance_count: 1
+

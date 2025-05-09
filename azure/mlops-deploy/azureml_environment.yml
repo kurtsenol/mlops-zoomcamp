@@ -1,0 +1,5 @@
+$schema: https://azuremlschemas.azureedge.net/latest/environment.schema.json
+name: taxi-env
+description: Environment for NYC taxi model (Python 3.9)
+image: mcr.microsoft.com/azureml/minimal-ubuntu20.04-py38-cpu-inference:latest
+conda_file: conda.yml

@@ -1,8 +1,0 @@
-name: nyc-taxi-env
-dependencies:
-  - python=3.8
-  - scikit-learn
-  - pandas
-  - pip
-  - pip:
-      - azureml-defaults

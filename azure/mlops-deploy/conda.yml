@@ -1,0 +1,10 @@
+name: taxi-env
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+      - scikit-learn
+      - pandas
+      - numpy
+      - scipy
+      - azureml-inference-server-http
