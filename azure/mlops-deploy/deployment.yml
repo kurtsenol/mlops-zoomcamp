@@ -2,7 +2,7 @@ $schema: https://azuremlschemas.azureedge.net/latest/managedOnlineDeployment.sch
 name: taxi-deployment
 endpoint_name: taxi-endpoint
 
-model: azureml:nyc-taxi-model:1
+model: azureml:nyc-taxi-bundle:1
 
 code_configuration:
   code: .

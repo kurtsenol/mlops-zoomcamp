@@ -6,6 +6,7 @@ data/
 *.parquet
 *.html
 *.csv
+*.pkl
 
 .venv
 venv
@@ -32,3 +33,4 @@ __pycache__/
 */mlruns/
 
 azure/downloaded/
+azure/mlops_deploy/.env
